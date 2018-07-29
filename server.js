@@ -29,13 +29,13 @@ app.get('/posts', (req, res) => {
 		}); 
 }); 
 
-app.get('/posts/:id', (req,res) =>{
+app.get('/posts/:id', (req,res) => {
 	BlogPost
 		.findById(req.params.id)
 		.then(post => res.json(posts.serialize()));
 		.catch(err => {
 			console.log(err);
-			res.status(500).json({message: "Internal server error"}); 
+			res.status(500).json({ error: 'Internal server error' }); 
 		});
 }); 
 
