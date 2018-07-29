@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 mongoose.Promise = global.Promise; 
 
 //define schema 
-const blogSchema = mongoose.Schema({
+const blogPostSchema = mongoose.Schema({
 	author: {
 		firstName: String,
 		lastName: String, 
