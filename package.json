@@ -1,0 +1,30 @@
+{
+  "name": "blogging-app-mongoose",
+  "version": "1.0.0",
+  "description": "Blog app API using Mongoose ",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamktom/blogging-app-mongoose.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Tom Lam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamktom/blogging-app-mongoose/issues"
+  },
+  "homepage": "https://github.com/lamktom/blogging-app-mongoose#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5",
+    "morgan": "^1.9.0",
+    "uuid": "^3.3.2"
+  }
+}
